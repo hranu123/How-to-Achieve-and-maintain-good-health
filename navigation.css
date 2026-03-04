@@ -8,7 +8,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #111;
-    padding: 10px 20px ;
+    padding: 10px 20px; ;
 }
 
 .nav-center {
@@ -44,6 +44,8 @@ body {
     height: 130px;
     object-fit: cover;
     display: block;
+    justify-content: right;
+
 }
 
 
@@ -61,6 +63,12 @@ body {
     border-radius: 6px;           
     box-sizing: border-box;  
     border-bottom:solid 5px rgb(161, 51, 51);
+    border-left:solid 5px rgb(46, 98, 175);
+    border-right:solid 5px rgb(65, 158, 77);
+
+}
+.navbar ul :hover a {
+  border-bottom:solid 5px rgb(161, 51, 51);
     border-left:solid 5px rgb(46, 98, 175);
     border-right:solid 5px rgb(65, 158, 77);
 

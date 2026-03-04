@@ -1,0 +1,11 @@
+header{
+    font-size: 75px;
+    font-family: 'Arial', sans-serif;
+   display:flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgb(247, 247, 247);
+
+
+
+}
