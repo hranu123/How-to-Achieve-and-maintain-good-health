@@ -73,7 +73,8 @@
          border-radius:6px; }
 .box2 { 
     grid-column: 3 / 5; 
-    grid-row: 5 / 6; background: #356835;
+    grid-row: 5 / 6; 
+    background: #356835;
     display:flex; 
     align-items:center; 
     justify-content:center;
@@ -125,8 +126,8 @@
 .conclusion {
     grid-column: 1 / 9;
     grid-row: 11 / 12;
-    background: #222;
-    color: white;
+    background: #b34646;
+    color: rgb(145, 117, 197);
     text-align: center;
     padding: 20px 0;
 }
