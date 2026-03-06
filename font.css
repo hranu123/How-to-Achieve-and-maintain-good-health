@@ -4,7 +4,31 @@ header{
    display:flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 2px 2px 4px rgb(247, 247, 247);
     font-weight: bold;
 
 }
+body {
+    background-color: #354b7c;
+    text-shadow: 6px 7px 8px rgb(247, 247, 247);
+
+
+}
+ h2 {
+    font-size: 40px;
+    font-family: 'Arial', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+
+ }
+ h1 {
+    font-size: 40px;
+    font-family: 'Arial', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+p {}
