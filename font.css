@@ -1,39 +1,83 @@
 header{
-    font-size: 75px;
+    font-size: 80px;
     font-family: 'Arial', sans-serif;
    display:flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-
+     border-bottom: solid 7.5px rgb(255, 255, 255);
+    border-right: solid 7.5px rgb(255, 255, 255);
+    border-left: solid 7.5px rgb(255, 255, 255);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     background-color: #354b7c;
-    text-shadow: 6px 7px 8px rgb(247, 247, 247);
+    text-shadow: 12px 15px 15px  rgb(247, 247, 247);
+
+
 
 
 }
  h2 {
-    font-size: 40px;
     font-family: 'Arial', sans-serif;
     display:flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    border-bottom: solid 4.5px rgba(111, 173, 102);
+    border-right: solid 4.5px rgb(111, 173, 102);
+    border-left: solid 4.5px rgb(111, 173, 102);
+ 
 
 
- }
- h1 {
-    font-size: 40px;
-    font-family: 'Arial', sans-serif;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
+
+
 }
-.image1, .image2 {
-    width: 450px;
-    height: 500px;
+ .header1, .header2, .header3, .header4, .header5 {
+font-size:35px;
+margin: 0 15px;
+
+
+
+
+}
+
+
+
+
+.box1, .box2, .box3, .box4, .box5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-size:21.5px;
+    margin: 0 15px;
+   
+
+
+}
+.box5 {
+    width:470px;
+    height:500px;
+}
+.image1 {
+    width: 700px;
+    height: 700px;
     overflow: hidden;
 }
 .image1 img {
@@ -41,4 +85,21 @@ body {
 height: 100%;
 object-fit:cover;
 display:block;
+}
+.image2 {
+    width: 500px;
+    height: 550px;
+    overflow: hidden;
+}
+.image2 img {
+     width: 100%;
+height: 100%;
+object-fit:cover;
+display:block;
+}
+.conclusion h1 {
+    font-size: 50px;
+}
+.conclusion p {
+    font-size: 20px;
 }

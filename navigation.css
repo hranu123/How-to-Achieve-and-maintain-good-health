@@ -46,17 +46,19 @@ body {
     height: 130px;
     object-fit: cover;
     display: block;
-    justify-content: right
+    justify-content: right;
+    padding-left: 5px;
 
 }
 
 
 .logo-right .image-side1 img {
     width: 300px ;
-    height: 130px; 
+    height: 150px; 
     object-fit: cover;
     display:block;
     justify-content: left;
+    padding-right: 10px;
 
 
 }
