@@ -61,7 +61,6 @@ body {
 .box5{
  background-color: #d8b58f;    
     transform: translateY(-5px);    
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
     cursor: pointer;   
 
 }
@@ -93,6 +92,12 @@ footer {
     border-top: solid 5.5px rgb(214,212, 166)   ;
     border-left: solid 5.5px rgb(214,212, 166) ;
     border-right: solid 5.5px rgb(214, 212, 166);
+     transition: all 0.3s ease;
+}
+footer:hover {
+    background-color: #d8b58f;    
+    transform: translateY(-5px);    
+    cursor: pointer;  
 }
 .conclusion h1 {
     font-size: 50px;
