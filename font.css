@@ -8,6 +8,12 @@ header{
      border-bottom: solid 7.5px rgb(255, 255, 255);
     border-right: solid 7.5px rgb(255, 255, 255);
     border-left: solid 7.5px rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+header:hover {
+    background-color: #e7b882;
+    transform: scale(1.05);    
+    cursor: pointer;     
 }
 body {
     background-color: #354b7c;
@@ -27,6 +33,15 @@ body {
     font-size:30px;
     transition: all 0.3s ease;
 }
+.header1:hover,
+.header2:hover,
+.header3:hover,
+.header4:hover,
+.header5:hover {
+    background-color: #e7b882;
+    transform: scale(1.05);    
+    cursor: pointer;            
+}
 .box1, .box2, .box3, .box4, .box5 {
     display: flex;
     flex-direction: column;
@@ -36,7 +51,19 @@ body {
      border-bottom: solid 4.5px #F27546;
     border-right: solid 4.5px #F27546 ;
     border-left: solid 4.5px #F27546 ;
-    border-top: solid 4.5px #F27546
+    border-top: solid 4.5px #F27546;
+    transition: all 0.3s ease;
+}
+.box1:hover, 
+.box2:hover, 
+.box3:hover, 
+.box4:hover, 
+.box5{
+ background-color: #d8b58f;    
+    transform: translateY(-5px);    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
+    cursor: pointer;   
+
 }
 
 .image1 {
